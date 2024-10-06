@@ -26,6 +26,7 @@ public class secondPage extends AppCompatActivity {
             return insets;
         });
 
+        // Button to go to first page
         goToPrevPage = findViewById(R.id.button2);
         goToPrevPage.setOnClickListener(new View.OnClickListener() {
             @Override

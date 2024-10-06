@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
+        //Button to go to next page
         goToNextPage = findViewById(R.id.button);
         goToNextPage.setOnClickListener(new View.OnClickListener() {
             @Override
